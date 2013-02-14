@@ -59,7 +59,10 @@ A table:
   <td>Row 2, col 2</td>
  </tr>
  <tr><td colspan=1>Note, you can nest <a href='table.html'>things like links</a> in tables</td></tr>
+ <tr><td colspan=1>Return to the <a href='../index.html'>index</a></td></tr>
 </table>
+
+
 """
 
 fp.close()
