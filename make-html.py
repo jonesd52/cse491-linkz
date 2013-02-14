@@ -28,6 +28,13 @@ fp.close()
 
 ###
 
+fp = open('html/link.html', 'w')
+print >>fp, "<b>Hello WORLD!!</b>"
+
+fp.close()
+
+###
+
 fp = open('html/subdir/table.html', 'w')
 
 print >>fp, """
@@ -64,3 +71,5 @@ fp = open('html/catastrophe.html', 'w')
 print >>fp, """
 <tr><td> <h3>This <width="25%" align="left"></td></tr><tr><td> <h3>is <width="25%" align="left"></td></tr><tr><td> <h3>an <width="25%" align="left"></td></tr><tr><td> <h3>ascending <width="25%" align="left"></td></tr><tr><td> <h3>catastrophe <width="25%" align="left"></td></tr><tr><td> <h3>QUICK! <width="25%" align="left"></td></tr><tr><td> <h3>close <width="25%" align="left"></td></tr><tr><td> <h3>the <width="25%" align="left"></td></tr><tr><td> <h3>h3 <width="25%" align="left"></td></tr><tr><td> <h3>tags! <width="25%" align="left"></td></tr>
 """
+
+fp.close()
