@@ -24,6 +24,9 @@ print >>fp, """
 <a href='subdir/table.html'>Here is a link</a> to a file in subdir/:
 """
 
+print >>fp, """<p>Check out the <a href='catastrophe.html'>catastrophe!</a></p>
+"""
+
 fp.close()
 
 ###
@@ -72,7 +75,8 @@ fp.close()
 fp = open('html/catastrophe.html', 'w')
 
 print >>fp, """
-<tr><td> <h3>This <width="25%" align="left"></td></tr><tr><td> <h3>is <width="25%" align="left"></td></tr><tr><td> <h3>an <width="25%" align="left"></td></tr><tr><td> <h3>ascending <width="25%" align="left"></td></tr><tr><td> <h3>catastrophe <width="25%" align="left"></td></tr><tr><td> <h3>QUICK! <width="25%" align="left"></td></tr><tr><td> <h3>close <width="25%" align="left"></td></tr><tr><td> <h3>the <width="25%" align="left"></td></tr><tr><td> <h3>h3 <width="25%" align="left"></td></tr><tr><td> <h3>tags! <width="25%" align="left"></td></tr>
+<tr><td> <h3>This <width="25%" align="left"></h3></td></tr><tr><td> <h3>is <width="25%" align="left"></h3></td></tr><tr><td> <h3>an <width="25%" align="left"></h3></td></tr><tr><td> <h3>ascending <width="25%" align="left"></h3></td></tr><tr><td> <h3>catastrophe <width="25%" align="left"></h3></td></tr><tr><td> <h3>QUICK! <width="25%" align="left"></h3></td></tr><tr><td> <h3>close <width="25%" align="left"></h3></td></tr><tr><td> <h3>the <width="25%" align="left"></h3></td></tr><tr><td> <h3>h3 <width="25%" align="left"></h3></td></tr><tr><td> <h3>tags! <width="25%" align="left"></h3></td></tr>
+<p>NOTE: This is much more boring than the original catastrophe...</p>
 """
 
 fp.close()
